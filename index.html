@@ -4,6 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>💰 기업 소개만 하면 현금 페이백! - 다큐 오피스허브</title>
+    <meta property="og:title" content="주식회사 다큐 - 기업 소개만 하면 현금 페이백" />
+    <meta
+      property="og:description"
+      content="기업 한 곳만 소개하면 현금 페이백! 누구나 참여 가능한 다큐 오피스허브 이벤트"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://officehub.kr/event/index.html" />
+    <meta
+      property="og:image"
+      content="https://officehub.kr/event/img/docu-og.png"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="주식회사 다큐 - 기업 소개만 하면 현금 페이백" />
+    <meta
+      name="twitter:description"
+      content="기업 소개만 하면 누구나 현금 페이백! 다큐 오피스허브 이벤트에 지금 참여하세요."
+    />
+    <meta
+      name="twitter:image"
+      content="https://officehub.kr/event/img/docu-og.png"
+    />
     <link rel="stylesheet" href="index.css" />
     <script type="text/javascript" src="../common/js/jquery-1.10.2.min.js"></script>
     <script>
@@ -140,6 +163,8 @@
         max-width: 1400px;
         margin: 0 auto;
         padding: 40px 20px;
+        word-break: keep-all;
+        overflow-wrap: anywhere;
       }
 
       /* 긴급 배너 */
@@ -1230,6 +1255,157 @@
           font-size: 16px;
           padding: 15px;
           padding-left: 45px;
+        }
+      }
+      @media screen and (max-width: 480px) {
+        body {
+          font-size: 15px;
+        }
+        .desc-inner {
+          padding: 30px 15px;
+        }
+        .hero-title {
+          font-size: 26px;
+          line-height: 1.3;
+        }
+        .hero-title .highlight {
+          font-size: 32px;
+        }
+        .hero-title .money-emoji {
+          font-size: 40px;
+        }
+        .hero-subtitle {
+          font-size: 18px;
+        }
+        .hero-stats {
+          flex-direction: column;
+          align-items: stretch;
+          gap: 16px;
+        }
+        .main-title-section {
+          padding: 28px 16px;
+        }
+        .main-title {
+          font-size: 26px;
+          padding-right: 0;
+        }
+        .title-line2 {
+          font-size: 34px;
+        }
+        .money-icon {
+          position: static;
+          display: block;
+          margin: 12px auto 0;
+          text-align: center;
+        }
+        .title-description {
+          font-size: 15px;
+        }
+        .products-showcase {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+          gap: 12px;
+        }
+        .product-item {
+          font-size: 28px;
+          padding: 18px;
+        }
+        .explanation-box,
+        .event-products-section,
+        .cta-section,
+        .notice-section,
+        .trust-section {
+          padding: 20px 16px;
+        }
+        .explanation-text,
+        .support-text {
+          font-size: 15px;
+        }
+        .cancellation-support {
+          gap: 12px;
+        }
+        .benefits-cards {
+          padding: 15px;
+        }
+        .benefit-guide-card {
+          padding: 20px 15px;
+        }
+        .participation-steps {
+          gap: 15px;
+          padding: 25px 15px;
+        }
+        .participation-step {
+          width: 100%;
+        }
+        .step-arrow {
+          display: none;
+        }
+        .section-header-blue {
+          font-size: 18px;
+        }
+        .section-header-with-icon h3,
+        .section-title,
+        .cta-title {
+          font-size: 24px;
+        }
+        .products-list li,
+        .notice-list li,
+        .cta-subtitle,
+        .benefit-card p {
+          font-size: 15px;
+        }
+        .benefit-card h3 {
+          font-size: 20px;
+        }
+        .benefit-icon {
+          font-size: 48px;
+        }
+        .process-section {
+          padding: 40px 16px;
+        }
+        .process-steps {
+          gap: 30px;
+        }
+        .process-step h4 {
+          font-size: 20px;
+        }
+        .step-number {
+          width: 80px;
+          height: 80px;
+          font-size: 32px;
+        }
+        .btn-inner > a {
+          font-size: 18px;
+          padding: 16px;
+        }
+        .btn-inner > a span {
+          font-size: 24px;
+        }
+      }
+      @media screen and (max-width: 360px) {
+        .hero-title {
+          font-size: 22px;
+        }
+        .hero-title .highlight {
+          font-size: 28px;
+        }
+        .hero-subtitle {
+          font-size: 16px;
+        }
+        .main-title {
+          font-size: 22px;
+        }
+        .title-line2 {
+          font-size: 28px;
+        }
+        .cta-title {
+          font-size: 20px;
+        }
+        .cta-subtitle {
+          font-size: 14px;
+        }
+        .btn-inner > a {
+          font-size: 16px;
+          padding: 14px;
         }
       }
     </style>
